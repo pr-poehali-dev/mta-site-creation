@@ -363,8 +363,13 @@ const Index = () => {
           </div>
 
           <div className="text-center text-gray-500 text-sm">
-            <p>IP: play.kavkaz-dvizh.ru | Порт: 22003</p>
-            <p className="mt-2">
+            <p className="mb-2">Подключение к серверу:</p>
+            <div className="bg-gaming-dark/50 border border-gaming-orange/30 rounded p-3 inline-block">
+              <p className="text-gaming-orange font-orbitron font-semibold">
+                mtasa://195.18.27.241:22056
+              </p>
+            </div>
+            <p className="mt-4">
               © 2024 KAVKAZ|DVIZH STYLE ORIGINAL. Все права защищены.
             </p>
           </div>
